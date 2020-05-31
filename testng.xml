@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="WMS TestSuite">
+
+	<groups>
+		<run>
+			<include name="main"></include>
+		</run>
+	</groups>
+	<test name="Main Run">
+		<classes>
+			<class name="testclasses.Scenario1"></class>
+		</classes>
+	</test>
+</suite>
